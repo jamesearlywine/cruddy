@@ -55,8 +55,8 @@
          Leaving it in (but commented out) case we need to extract some parts to support datetimepicker --jle
     <script src='/{!! rtrim(str_replace('index.php', '', config('cruddy.uri_prefix')), '/') . '/' !!}cruddy/bower_components/bootstrap/dist/js/bootstrap.min.js?v=27'></script>
     -->
-    <script src='/{!! rtrim(str_replace('index.php', '', config('cruddy.uri_prefix')), '/') . '/' !!}cruddy/bower_components/moment/moment.js?v=27'></script>
-    <script src='/{!! rtrim(str_replace('index.php', '', config('cruddy.uri_prefix')), '/') . '/' !!}cruddy/bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js?v=27'></script>
+    <script src='{!! empty( trim(config('cruddy.uri_prefix')) ) ? '' : '/'; !!}{!! rtrim(str_replace('index.php', '', config('cruddy.uri_prefix')), '/') . '/' !!}cruddy/bower_components/moment/moment.js?v=27'></script>
+    <script src='{!! empty( trim(config('cruddy.uri_prefix')) ) ? '' : '/'; !!}{!! rtrim(str_replace('index.php', '', config('cruddy.uri_prefix')), '/') . '/' !!}cruddy/bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js?v=27'></script>
     <style>
         .form-group.field__datetime {
             position: relative;
