@@ -1,6 +1,5 @@
 {
-    "name": "jamesearlywine/cruddy",
-    "replaces": "kalnoy/cruddy",
+    "name": "cruddy",
     "version": "dev-master",
     "author": "Alexander Kalnoy",
     "devDependencies": {
