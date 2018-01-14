@@ -1,10 +1,7 @@
 {
-    "name": "jamesearlywine/cruddy-modded",
-
+    "name": "cruddy",
     "version": "0.4.0",
-
-    "author": "Alexander Kalnoy - Adapted for personal use by James earlywine",
-
+    "author": "Alexander Kalnoy",
     "devDependencies": {
         "grunt": "~0.4",
         "grunt-contrib-uglify": "~0.4",
@@ -14,5 +11,4 @@
         "grunt-contrib-less": "~1.0",
         "grunt-contrib-watch": "~0.6"
     }
-
 }
