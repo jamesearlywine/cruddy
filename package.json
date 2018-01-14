@@ -1,6 +1,7 @@
 {
-    "name": "kalnoy/cruddy",
-    "version": "0.5.5",
+    "name": "jamesearlywine/cruddy",
+    "replaces": "kalnoy/cruddy",
+    "version": "0.0.1",
     "author": "Alexander Kalnoy",
     "devDependencies": {
         "grunt": "~0.4",
