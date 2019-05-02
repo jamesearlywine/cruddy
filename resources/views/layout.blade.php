@@ -57,7 +57,8 @@
     -->
     <script src='/cruddy/bower_components/moment/moment.js?v=27'></script>
     <script src='/cruddy/bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js?v=27'></script>
-    <style>
+
+<style>
         .form-group.field__datetime {
             position: relative;
         }

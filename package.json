@@ -1,6 +1,6 @@
 {
     "name": "cruddy",
-    "version": "dev-master",
+    "version": "dev-modded",
     "author": "Alexander Kalnoy",
     "devDependencies": {
         "grunt": "~0.4",
